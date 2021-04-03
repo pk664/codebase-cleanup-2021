@@ -69,8 +69,6 @@ if __name__ == "__main__":
     print("THANK YOU! PLEASE COME AGAIN SOON!")
     print("---------")
 
-
-
     # WRITE RECEIPT TO FILE
 
     receipt_id = checkout_at.strftime('%Y-%M-%d-%H-%m-%S')

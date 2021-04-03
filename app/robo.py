@@ -12,8 +12,6 @@ load_dotenv()
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="abc123")
 
-# FETCH DATA
-
 symbol = input("Please input a stock symbol (e.g. 'MSFT'): ")
 request_url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={API_KEY}"
 response = requests.get(request_url)
