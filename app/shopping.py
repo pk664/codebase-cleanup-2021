@@ -7,7 +7,7 @@ def format_usd(my_price):
     """
     Formats a number as USD with dollar sign and two decimals (and also thousands separator)
 
-    Params: my_price is a number (int or float) that we wnat to format 
+    Params: my_price is a number (int or float) that we want to format 
 
     Examples: format_usd(10)
     """
