@@ -6,8 +6,6 @@ from app.shopping import format_usd, lookup_product
 def test_format_usd():
     assert format_usd(9.5) == "$9.50"
 
-
-# consider making this a fixture!
 mock_products_filepath = os.path.join(os.path.dirname(__file__), "mock_data", "mock_products.csv")
 mock_products_df = read_csv(mock_products_filepath)
 mock_products = mock_products_df.to_dict("records")

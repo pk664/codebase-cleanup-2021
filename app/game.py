@@ -27,6 +27,7 @@ def determine_winner(choice1, choice2):
     }
     winning_choice = winners[choice1][choice2]
     return winning_choice
+    
 
 if __name__ == "__main__":
 
@@ -51,4 +52,6 @@ if __name__ == "__main__":
     #else:
     elif winner == None:
         print("IT'S A TIE!")
+
+
     
